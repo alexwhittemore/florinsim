@@ -119,6 +119,11 @@ Profit per ticket: 12.777
 You win more money in all cases, the F20 probability doubler becomes less of a screw job, and perhaps most importantly of all, you waste a whole bunch of IRL time and money waiting for your neighbors to bump the pot :)
 
 ## Future Work (that I'm not going to do)
+
+### Code quality
+This isn't exactly test driven development, so it's really best-effort on my part that the simulation is even correct. I think it is, though.
+
+### Simulation stuff
 This is hardly an exhaustive list of betting strategies, and doesn't anser a number of questions about what to do during individual conditions of the cases included. For example, what's the probability that, betting on (3), you leave other players to take a huge pot, thereby screwing yourself? That is, low n_tickets between resetting the pot to zero. Also for example, does it make sense to pay 20 Florins to double my odds if the 5% purse is all the way up at 1000 Florins? Probably - that's 20 Florins for a marginal expected profit of 50 florins, rather than 20 Florins for 2.5 in the base-case. Actually, the static break-even point in that case is a purse of 400 florins - in excess of F400, you should double-down.
 
-Anyway, getting you to read all the way to this point is way more valuable than the in-game currency, so now that I've already broken my promise once, I'm going to leave it at that, for real. 
+Anyway, getting you to read all the way to this point is way more valuable than the in-game currency, so now that I've already broken my promise once, I'm going to leave it at that, for real.
